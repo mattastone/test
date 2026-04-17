@@ -6,5 +6,5 @@ git config user.email "164589+mattastone@users.noreply.github.com"
 git config user.name "Joker"
 git add JOKES.md
 git diff --cached --quiet || git commit -m "Joke Store session $(date +%Y-%m-%d)"
-git push origin HEAD:main
+git push origin HEAD:master
 ```
